@@ -1,0 +1,58 @@
+body{
+
+    color:white;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: nome;
+    align-items: center;
+    padding: 16px;
+}
+
+a{
+    color: white;
+    text-decoration: nome;
+}
+
+Header img{
+
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 5px solid green; 
+}
+
+.center{
+        text-align: center;
+
+}
+
+footer img{
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 5px solid green; 
+}
+
+footer{
+
+    display:  flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+}
+
+.container{
+    padding: 0px 50px;
+}
+
+nav a:hover{
+    color: red;
+}
